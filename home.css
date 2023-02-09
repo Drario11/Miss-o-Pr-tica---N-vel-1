@@ -1,0 +1,40 @@
+body, html{
+    height: 100%;
+    background-color: rgba(47, 138, 138, 0.24);
+        
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    background-color: transparent;
+    color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+.conteudo{
+    flex:  1 0 auto;
+    text-align: center;
+    background-color: rgba(0, 94, 28, 0.247);
+}
+
+.cadastro{
+    overflow-y: auto;
+    
+   
+}
+
+.rodape{
+    background-color: rgba(50, 146, 230, 0.336);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: arial;
+    border: 10px coral;
+}
+
+
+
